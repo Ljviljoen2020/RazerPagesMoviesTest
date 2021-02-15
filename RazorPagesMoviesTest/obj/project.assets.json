@@ -7476,11 +7476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Doom\\Documents\\RazorPagesMoviesTest\\RazorPagesMoviesTest\\RazorPagesMoviesTest.csproj",
+      "projectUniqueName": "C:\\Users\\Doom\\Documents\\RazerPagesMoviesTest\\RazorPagesMoviesTest\\RazorPagesMoviesTest.csproj",
       "projectName": "RazorPagesMoviesTest",
-      "projectPath": "C:\\Users\\Doom\\Documents\\RazorPagesMoviesTest\\RazorPagesMoviesTest\\RazorPagesMoviesTest.csproj",
+      "projectPath": "C:\\Users\\Doom\\Documents\\RazerPagesMoviesTest\\RazorPagesMoviesTest\\RazorPagesMoviesTest.csproj",
       "packagesPath": "C:\\Users\\Doom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Doom\\Documents\\RazorPagesMoviesTest\\RazorPagesMoviesTest\\obj\\",
+      "outputPath": "C:\\Users\\Doom\\Documents\\RazerPagesMoviesTest\\RazorPagesMoviesTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
