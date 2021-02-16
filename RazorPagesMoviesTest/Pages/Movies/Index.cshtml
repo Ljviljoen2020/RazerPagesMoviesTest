@@ -60,9 +60,9 @@
                 @Html.DisplayFor(modelItem => item.Rating)
             </th>
             <td>
-                <a href="/Movies/Edit?id=1">Edit</a> |
-                <a href="/Movies/Details?id=1">Details</a> |
-                <a href="/Movies/Delete?id=1">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
             </td>
         </tr>
 }
