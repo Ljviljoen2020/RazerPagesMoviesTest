@@ -10,8 +10,8 @@ using RazorPagesMoviesTest.Data;
 namespace RazorPagesMoviesTest.Migrations
 {
     [DbContext(typeof(RazorPagesMoviesTestContext))]
-    [Migration("20210215094906_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20210216031113_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,6 +33,9 @@ namespace RazorPagesMoviesTest.Migrations
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Rating")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");
